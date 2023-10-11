@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index</title>
+</head>
+<body style="background-color:#FFCCFF">
+	<p style = "color:#FFFFFF; font-size:18px">
+    <img src="{{ user_image }}" alt="User Image">
+  <form action = '/test/checkAns' method = "POST">
+    <input type="hidden" id="testNum" name="testNum" value="{{number}}">
+    <input type="hidden" id="total" name="total" value="{{tot}}">
+    <label for="number">What number do you see?</label><br>
+    <input type="text" id="number" name="number"><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
