@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VISION TESTING</title>
+</head>
+<body style="background-color:#288BA8">
+	<p style = "color:#FFFFFF; font-size:22px"> 
+		WELCOME
+		
+		Do you wish to take the color blind test or the amsler graph test?<br>
+By taking a colorblind test, you are able to understand which colors you may have difficulty distinguishing.<br>
+By taking the amsler grid test, it can help detect early signs of retinal disease and monitor changes in vision after diagnosis. 
+	</p>
+  <form action = '/trackswitch' method = "POST" >
+		<input type="radio" id="Color" name="answer" value="Color">
+		<label for="html" style = "color:#FFFFFF">Color Blind Test</label><br>
+		<input type="radio" id="Amsler" name="answer" value="Amsler">
+		<label for="css" style = "color:#FFFFFF">Amsler</label><br>
+		<button name="submit" class="action_btn submit" type="submit" value="Color">Submit</button>
+
+  </form>
+</body>
+</html>
